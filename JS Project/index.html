@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        body{
+            background: #d7e9fa;
+        }
+        .smallBlock {
+            border: white solid 4px;
+            padding: 25px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            text-align: center;
+            text-size-adjust: auto;
+            background: rgba(201, 229, 229, 0.84);
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        .block {
+            width: 60vw;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+        }
+        a {
+            padding: 20px;
+            font-size: 14px;
+        }
+        #userList {
+            border: none;
+            display: flex;
+            flex-direction: column;
+            width: 70vw;
+            height: 80vh;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<h1 style="margin: 30px; text-align: center"><i>Users</i></h1>
+<div id="userList">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+</div>
+<script src="js_for_index.js"></script>
+</body>
+</html>
